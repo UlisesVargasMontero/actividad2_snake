@@ -29,6 +29,24 @@ def inside(head):
     return -200 < head.x < 190 and -200 < head.y < 190
 
 
+def move_food():
+    """Move food randomly inside the window"""
+    # Lugares a los que se puede mover: derecha, izquierda, arriba y abajo
+    steps = [vector(10, 0), vector(-10, 0), vector(0, 10), vector(0, -10)]
+    step = steps[randrange(4)]
+
+    # Calcular la nueva posicion sin haber movido la comida
+    new_position = food.copy()
+    new_position.move(step)
+
+    # Solo se movera si la posicion nueva sigue en la ventana
+    if inside(new_position):
+        food.move(step)
+
+    # Mover la comida cada medio segundo
+    ontimer(move_food, 500)
+
+
 def move():
     """Move snake forward one segment."""
     head = snake[-1].copy()
@@ -66,5 +84,6 @@ onkey(lambda: change(10, 0), 'Right')
 onkey(lambda: change(-10, 0), 'Left')
 onkey(lambda: change(0, 10), 'Up')
 onkey(lambda: change(0, -10), 'Down')
+move_food()
 move()
 done()
