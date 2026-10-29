@@ -12,4 +12,4 @@ Movimiento:
 - right: movimiento hacia la derecha
 
 # Cambios realizados
-- 
+- Agrega selección aleatoria de colores
