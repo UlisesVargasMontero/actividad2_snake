@@ -16,3 +16,4 @@ Movimiento:
 - Agrega selección aleatoria de colores
 - Agrega colores aleatorios a la víbora
 - Agrega color aleatorio a la comida
+- Agrega espacio en línea 23 para alinearse con el formato PEP 8
