@@ -10,3 +10,6 @@ Movimiento:
 - down: movimiento hacia arriba
 - left: movimiento hacia la izquierda
 - right: movimiento hacia la derecha
+
+# Cambios realizados
+- 
