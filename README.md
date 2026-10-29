@@ -12,4 +12,4 @@ Movimiento:
 - right: movimiento hacia la derecha
 
 # Cambios realizados
-- 
+- Se agregó movimiento aleatorio a la comida (Edgar).
