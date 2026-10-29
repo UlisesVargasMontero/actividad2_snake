@@ -13,3 +13,4 @@ Movimiento:
 
 # Cambios realizados
 - Agrega selección aleatoria de colores
+- Agrega colores aleatorios a la víbora
