@@ -13,3 +13,6 @@ Movimiento:
 
 # Cambios realizados
 - Se agregó movimiento aleatorio a la comida (Edgar).
+- Agrega selección aleatoria de colores
+- Agrega colores aleatorios a la víbora
+- Agrega color aleatorio a la comida
